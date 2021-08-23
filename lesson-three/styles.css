@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Nunito:wght@400;800&display=swap");
 
 :root {
-  /* --primary-color: #047857; */
-  --primary-color: #10b981;
+  --primary-color: #f59e0b;
+  /* --primary-color: #10b981; */
   --dark-grey: #6b7280;
-  --off-white: #e5e7eb;
+  --off-white: #f3f4f6;
 }
 
 body {
@@ -12,9 +12,16 @@ body {
   margin: 0;
 }
 hr {
-  margin: 2rem 0;
+  margin: 2rem 0rem;
 }
 
+/*spaces*/
+
+.margin-md {
+  margin: 2rem;
+}
+
+/*container*/
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -23,12 +30,14 @@ hr {
 .container-center {
   max-width: 600px;
   margin: auto;
+  padding-bottom: 2rem;
 }
 
 /**links*/
 .link {
+  box-sizing: border-box;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
 }
 
 .link-primary {
@@ -82,6 +91,7 @@ hr {
 /**headers */
 .header {
   padding: 2rem;
+  padding-top: 5rem;
 }
 .header .header-image {
   max-width: 350px;
@@ -123,6 +133,12 @@ hr {
   color: white;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  margin-bottom: 0rem;
+}
+
+.footer .footer-title {
+  font-weight: bold;
+  font-size: large;
 }
 
 .footer .link {
