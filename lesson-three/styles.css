@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Nunito:wght@400;800&display=swap");
 
 :root {
-  --primary-color: #047857;
-  --dark-grey: #6b7280;
+  /* --primary-color: #047857; */
+  --primary-color: #10b981;
+  --dark-grey: #e5e7eb;
   --off-white: #e5e7eb;
 }
 
@@ -120,7 +121,7 @@ hr {
   padding: 2rem 1rem;
   text-align: center;
   color: white;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 
