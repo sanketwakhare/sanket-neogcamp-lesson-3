@@ -8,6 +8,7 @@
 
 body {
   font-family: "Nunito", sans-serif;
+  margin: 0;
 }
 hr {
   margin: 2rem 0;
@@ -110,4 +111,23 @@ hr {
 
 .off-white {
   background-color: var(--off-white);
+}
+
+/**footer**/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
